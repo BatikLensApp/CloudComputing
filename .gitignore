@@ -1,0 +1,55 @@
+# Mengabaikan folder node_modules di seluruh proyek
+**/node_modules/
+
+# Mengabaikan virtual environment dan folder terkait lainnya
+myenv/
+**/.env
+**/env/
+**/venv/
+
+# Mengabaikan file build atau temporary lainnya
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Mengabaikan file konfigurasi Firebase yang tidak perlu
+firebase.json
+firestore.indexes.json
+firestore.rules
+serviceAccountKey.json
+
+# Mengabaikan file konfigurasi ESLint
+**/.eslintrc.js
+
+# Mengabaikan file konfigurasi Gitignore di subfolder
+**/.gitignore
+
+# Mengabaikan file package-lock.json untuk setiap subfolder
+**/package-lock.json
+
+# Mengabaikan file index.js di subfolder tertentu yang tidak perlu
+**/index.js
+
+# Mengabaikan file JSON lainnya yang mungkin tidak perlu
+**/*.json
+
+# Mengabaikan file lainnya yang mengandung kata "nano", "new", atau "zzz"
+**/nano/
+**/nanoo/
+**/newss/
+**/newsss/
+**/newssss/
+**/newzzz/
+
+# Mengabaikan file terkait build atau lingkungan lainnya
+**/build/
+**/dist/
+
+# File sementara sistem (untuk Windows)
+Thumbs.db
+Desktop.ini
+
+# File sementara untuk macOS
+.DS_Store

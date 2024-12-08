@@ -19,6 +19,8 @@ firebase.json
 firestore.indexes.json
 firestore.rules
 serviceAccountKey.json
+Scanner-Api/ServiceAccount.json
+
 
 # Mengabaikan file konfigurasi ESLint
 **/.eslintrc.js
@@ -53,3 +55,7 @@ Desktop.ini
 
 # File sementara untuk macOS
 .DS_Store
+
+Scanner-Api/ServiceAccount.json
+Menu-Api/functions/serviceAccountKey.json
+
